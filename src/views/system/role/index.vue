@@ -49,7 +49,7 @@ const submit = () => {
     user2.product_name = user1.product_name.toString()
     user2.status = parseInt(user1.status)
     user2.total = parseInt(user1.total)
-    axios.post('http://49.233.111.31:80/admin/product/create',user2)
+    axios.post('http://152.136.197.135:80/admin/product/create',user2)
        .then((res) => {
         if(res&&res.status == 200)
            console.log(res)

@@ -21,7 +21,7 @@ const tableList = reactive({
 	list:[]
 })
 const getTableList = () => {
-	axios.get('http://49.233.111.31:80/admin/activity/list')
+	axios.get('http://152.136.197.135:80/admin/activity/list')
 	.then((res)=>{
 		console.log(res)
 		tableList.list = res.data.result

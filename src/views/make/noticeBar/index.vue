@@ -21,7 +21,7 @@ const tableData = reactive({
 
 
 const getTableList = () =>{
-	axios.get('http://49.233.111.31:80/app/sec/list')
+	axios.get('http://152.136.197.135:80/app/sec/list')
 	.then((res)=>{
        console.log(res)
 	   tableData.list = res.data.result

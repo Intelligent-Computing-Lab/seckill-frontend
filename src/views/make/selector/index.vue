@@ -67,7 +67,7 @@ const search = () => {
   axios({
     
     method: 'post',
-    url: 'http://49.233.111.31:80/app/sec/info',
+    url: 'http://152.136.197.135:80/app/sec/info',
     data: input1
   }).then((res) => {
     console.log("111111")

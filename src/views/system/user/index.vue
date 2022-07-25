@@ -77,7 +77,7 @@ const submit = () =>{
     user2.buy_limit = parseInt(user1.buy_limit) 
     user2.buy_rate = parseInt(user1.buy_rate) 
     
-    axios.post('http://49.233.111.31:80/admin/activity/create',user2)
+    axios.post('http://152.136.197.135:80/admin/activity/create',user2)
     .then((res)=>{
       if(res&&res.status==200){
            console.log(res)

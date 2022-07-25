@@ -33,7 +33,7 @@ const viteConfig = defineConfig((mode: ConfigEnv) => {
 					rewrite: (path) => path.replace(/^\/index/, ''),
 				},
 				// '/admin/product/list': {
-				// 	target: 'http://49.233.111.31:80',
+				// 	target: 'http://152.136.197.135:80',
 				// 	ws: true,
 				// 	changeOrigin: true,
 				// 	rewrite: (path) => path.replace(/^\/admin/product/list/, ''),

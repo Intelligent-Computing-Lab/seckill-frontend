@@ -130,7 +130,7 @@ const search = () => {
   input1.client_refence = input.client_refence.toString()
   axios({
     method: 'post',
-    url: 'http://49.233.111.31:80/app/sec/kill',
+    url: 'http://152.136.197.135:80/app/sec/kill',
     data: input1
   }).then((res) => {
     console.log("111111")
